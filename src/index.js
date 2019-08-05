@@ -1,6 +1,6 @@
 const { spawn } = require('child_process')
 const { statSync } = require('fs')
-const ExeFile = require('c21e')
+const ExeFile = require('c21e').default;
 const cm = require('cucumber-messages').io.cucumber.messages
 const ProtobufMessageStream = require('./ProtobufMessageStream')
 
